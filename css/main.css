@@ -1,0 +1,129 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* Home */
+
+.home-content{
+    margin: 15em 5em;
+    border-radius: 10px;
+    padding: 5em 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(64, 77, 64); 
+    color: white;
+    
+}
+
+.author-preview{
+    font-size: 1rem;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.right-section img{
+    object-fit: contain;
+    border-radius: 90%;
+    padding: 1em;
+
+}
+
+
+/* About */
+
+.main-content{
+    margin: 10em 5em;
+    border-radius: 10px;
+    padding: 1em 0.5em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(64, 77, 64);  
+    color: white;
+}
+
+.content-header{
+    display: block;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.about-preview{
+    font-family: sans-serif;
+    word-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+.skill-set{
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+
+}
+
+.skill-set ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+
+.projects-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10rem;
+    padding: 50px;
+    font-family: verdana,sans-serif;
+    font-size: 20px;
+    align-items: center;
+    
+}
+
+.projects-container img{
+    object-fit: contain;
+    height:  30vh;
+    border: 2px solid black black;
+    padding: 2em;
+    border-radius: 10%;
+    background-color: rgb(107, 96, 96);
+    display: flex;
+    
+}
+
+/* footer */
+footer{
+    padding: 1em 1em 0 1em;
+    height: 20vh;
+    background-color:  rgb(54, 48, 48);
+}
+
+.icons{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    gap: 2em;
+    justify-content: center;
+}
+
+.icons a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.copyright{
+    display: flex;
+    font-family: verdana,sans-serif;
+    color: white;
+    justify-content: center;
+    opacity: 50%; 
+}

@@ -1,0 +1,60 @@
+/* Header */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(54, 48, 48);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.page-title{
+    font-size: 2em;
+    font-family: verdana;
+    margin-left: 1em;
+    color: rgb(236, 241, 236);
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    cursor: default;
+}
+
+.nav-bar :last-child{
+    margin-right: 55px;
+}
+
+.nav-bar li {
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    position: relative;
+}
+
+.nav-bar a:hover{
+    color: rgb(106, 219, 112);
+    transition: 0.5s all;
+}
+.nav-bar a::after{
+    content: '';
+    background-color: rgb(5, 230, 65);
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    right: 0;
+}
+
+.nav-bar a:hover::after{
+    width: 100%;
+    transition: 0.7s all;
+
+}
